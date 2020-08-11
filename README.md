@@ -1,6 +1,4 @@
-<p align="center">
-  <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
-</p>
+![build-test](https://github.com/Trepp/actions-render-wsq/workflows/build-test/badge.svg?branch=main)
 
 # GitHub Action to render web sequence diagrams
 
@@ -72,6 +70,7 @@ Actions are run from GitHub repos so we will checkin the packed dist folder.
 Then run [ncc](https://github.com/zeit/ncc) and push the results:
 
 ```bash
+npm run build
 npm run package
 git add dist
 git commit -a -m "prod dependencies"

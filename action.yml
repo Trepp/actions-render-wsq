@@ -2,10 +2,6 @@ name: 'render-wsq'
 description: 'Render web sequence diagrams to images'
 author: 'Michael Holtzman @ Trepp'
 inputs:
-  milliseconds: # change this
-    required: true
-    description: 'input description here'
-    default: 'default value if applicable'
   folder:
     required: true
     description: Folder to search for wsq files for input
