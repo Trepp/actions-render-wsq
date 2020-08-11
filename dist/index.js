@@ -167,7 +167,7 @@ function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const folder = core.getInput('folder');
-            const style = core.getInput('format');
+            const style = core.getInput('style');
             yield diagrams_1.render(folder, style);
         }
         catch (error) {
