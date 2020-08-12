@@ -1,1 +1,1 @@
-declare module 'websequencediagrams';
+declare module 'websequencediagrams'

@@ -1,12 +1,37 @@
-![build-test](https://github.com/Trepp/actions-render-wsq/workflows/build-test/badge.svg?branch=main)
-
 # GitHub Action to render web sequence diagrams
+
+![build-test](https://github.com/Trepp/actions-render-wsq/workflows/build-test/badge.svg?branch=main)
 
 This action will automatically render images for [web sequence diagrams](https://www.websequencediagrams.com/examples.html) in a given project folder  :rocket:
 
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
+After the action runs new png images will be created for any *.wsq files in the specified folder. These can then be committed.
+
+## Inputs
+
+### `folder`
+
+**Required** This can be a relative folder starting from the project root. ie: `./docs/diagrams` The action will scan for all files in this folder, but does not look at sub-folders.
+
+### `style`
+
+**Optional** Specify a UI style for how the diagrams will be rendered. Available options include:
+
+* default
+* earth
+* modern-blue
+* mscgen
+* omegapple
+* qsd
+* rose
+* roundgreen
+* napkin
+* magazine
+* vs2010
+* patent
 
 ## Quickstart Development on the Action
+
+If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
 
 Install the dependencies
 
@@ -35,11 +60,7 @@ npm test
 
 ### Change action.yml
 
-The action.yml contains defines the inputs and output for your action.
-
-Update the action.yml with your name, description, inputs and outputs for your action.
-
-See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
+The action.yml contains defines the inputs and output for your action. See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
 
 ### Change the Code
 
@@ -63,7 +84,7 @@ run()
 
 See the [toolkit documentation](https://github.com/actions/toolkit/blob/master/README.md#packages) for the various packages.
 
-## Publish new version
+### Publish new version
 
 Actions are run from GitHub repos so we will checkin the packed dist folder.
 
@@ -81,7 +102,7 @@ Your action is now published! :rocket:
 
 See the [versioning documentation](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
 
-## Validate
+### Validate
 
 You can now validate the action by referencing `./` in a workflow in your repo (see [test.yml](.github/workflows/test.yml))
 
@@ -93,6 +114,6 @@ with:
 
 See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
 
-## Usage
+### Usage
 
 After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md) to reference the stable and latest V1 action
