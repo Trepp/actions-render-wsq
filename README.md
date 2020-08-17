@@ -29,7 +29,7 @@ After the action runs new png images will be created for any *.wsq files in the 
 * vs2010
 * patent
 
-### `commitFiles`
+### `commitChanges`
 
 **Optional** Flag (true, false) to indicate if any new or changed files should automatically be committed.
 
