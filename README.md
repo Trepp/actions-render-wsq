@@ -29,6 +29,10 @@ After the action runs new png images will be created for any *.wsq files in the 
 * vs2010
 * patent
 
+### `commitFiles`
+
+**Optional** Flag (true, false) to indicate if any new or changed files should automatically be committed.
+
 ## Quickstart Development on the Action
 
 If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
