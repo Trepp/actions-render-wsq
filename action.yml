@@ -9,6 +9,10 @@ inputs:
     required: false
     description: Style to use
     default: default
+  commitChanges:
+    required: false
+    description: bool to indicate if action should commit changes automatically
+    default: 'false'
 runs:
   using: 'node12'
   main: 'dist/index.js'
