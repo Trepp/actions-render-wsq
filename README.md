@@ -95,6 +95,7 @@ Actions are run from GitHub repos so we will checkin the packed dist folder.
 Then run [ncc](https://github.com/zeit/ncc) and push the results:
 
 ```bash
+git checkout releases/v1
 npm run build
 npm run package
 git add dist
@@ -121,3 +122,8 @@ See the [actions tab](https://github.com/actions/javascript-action/actions) for 
 ### Usage
 
 After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md) to reference the stable and latest V1 action
+
+```bash
+git tag -fa v1 -m "Update v1 tag"
+git push origin v1 --force
+```
