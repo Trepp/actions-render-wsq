@@ -1,6 +1,6 @@
-import{render} from '../src/diagrams'
+import {render} from '../src/diagrams'
 import * as path from 'path'
-import { promises as fs } from 'fs'
+import {promises as fs} from 'fs'
 
 test('renders a diagram', async () => {
   await render(__dirname, 'modern-blue')
@@ -13,5 +13,7 @@ test('renders files using local path', async () => {
 })
 
 test('throws unknown style', async () => {
-  await expect(render(__dirname, 'modern-blue1111')).rejects.toThrow('Unknown style: modern-blue1111')
+  await expect(render(__dirname, 'modern-blue1111')).rejects.toThrow(
+    'Unknown style: modern-blue1111'
+  )
 })
