@@ -6,7 +6,7 @@ async function run(): Promise<void> {
   try {
     const folder: string = core.getInput('folder')
     const style: string = core.getInput('style')
-    const commitChanges: boolean = core.getInput('commitChanges') === 'true'
+    const commitChanges: boolean = core.getBooleanInput('commitChanges')
 
     await render(folder, style)
 
