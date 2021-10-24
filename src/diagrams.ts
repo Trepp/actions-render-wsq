@@ -1,7 +1,7 @@
 import * as core from '@actions/core'
-import wsd from 'websequencediagrams'
 import {promises as fs} from 'fs'
 import path from 'path'
+import wsd from 'websequencediagrams'
 
 export async function render(folder: string, style: string): Promise<void> {
   let filename = null

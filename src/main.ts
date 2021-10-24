@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
-import {render} from './diagrams'
 import {commitFiles} from './github'
+import {render} from './diagrams'
 
 async function run(): Promise<void> {
   try {

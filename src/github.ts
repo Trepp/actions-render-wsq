@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
-import util from 'util'
 import cp from 'child_process'
+import util from 'util'
 
 const exec = util.promisify(cp.exec)
 
