@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
-import {promises as fs} from 'fs'
-import path from 'path'
+import {promises as fs} from 'node:fs'
+import path from 'node:path'
 import wsd from 'websequencediagrams'
 
 export async function render(folder: string, style: string): Promise<void> {
