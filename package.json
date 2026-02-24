@@ -1,7 +1,6 @@
 {
   "name": "render-wsq",
   "version": "1.2.0",
-  "type": "module",
   "private": false,
   "description": "Action to render web sequence diagrams to images",
   "main": "lib/main.js",
