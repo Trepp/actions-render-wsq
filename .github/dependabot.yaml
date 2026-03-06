@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "main"
+    schedule:
+      interval: "cron"
+      cronjob: "0 8 1,15 * *"   # 8:00AM EST on the 1st & 15th
+      timezone: "America/New_York"
+    groups:
+      all-github-actions:
+        patterns: ["*"] # one PR for all action updates
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "actions upgrade:"
+      include: "scope"
