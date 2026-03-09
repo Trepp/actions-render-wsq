@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "2.0.3",
-    "websequencediagrams": "6.0.2"
+    "websequencediagrams": "6.0.5"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
