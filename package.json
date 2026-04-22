@@ -26,20 +26,20 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "2.0.3",
-    "websequencediagrams": "6.0.2"
+    "websequencediagrams": "6.0.5"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
-    "@types/node": "^25.3.5",
-    "@typescript-eslint/eslint-plugin": "^8.56.1",
-    "@typescript-eslint/parser": "^8.56.1",
-    "@vercel/ncc": "^0.38.4",
-    "eslint": "10.0.2",
-    "jest": "^30.2.0",
-    "jest-circus": "^30.2.0",
+    "@types/jest": "30.0.0",
+    "@types/node": "25.6.0",
+    "@typescript-eslint/eslint-plugin": "8.59.0",
+    "@typescript-eslint/parser": "8.59.0",
+    "@vercel/ncc": "0.38.4",
+    "eslint": "10.2.1",
+    "jest": "30.3.0",
+    "jest-circus": "30.3.0",
     "js-yaml": "^4.1.0",
-    "prettier": "3.8.1",
-    "ts-jest": "^29.4.6",
-    "typescript": "^5.0.2"
+    "prettier": "3.8.3",
+    "ts-jest": "29.4.9",
+    "typescript": "5.9.3"
   }
 }

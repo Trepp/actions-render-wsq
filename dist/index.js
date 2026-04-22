@@ -31753,7 +31753,7 @@ module.exports = require("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"websequencediagrams","description":"Interface to websequencediagrams.com","version":"6.0.2","author":"Joe Hildebrand <joe-github@cursive.net>","contributors":["Ed Crump <ed.crump@gmail.com> (https://github.com/icedawn)","Michael Callaghan <michael@walkingriver.com> (https://walkingriver.com)"],"homepage":"https://github.com/hildjj/node-websequencediagrams","repository":{"type":"git","url":"git://github.com/hildjj/node-websequencediagrams.git"},"directories":{"bin":"bin","lib":"lib"},"main":"lib/wsd","keywords":["uml","sequence diagram","sequence","diagram","websequencediagrams","websequencediagrams.com"],"license":"Apache-2.0","dependencies":{"yargs":"^18.0.0"},"engines":{"node":">=20"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"name":"websequencediagrams","description":"Interface to websequencediagrams.com","version":"6.0.5","author":"Joe Hildebrand <joe-github@cursive.net>","contributors":["Ed Crump <ed.crump@gmail.com> (https://github.com/icedawn)","Michael Callaghan <michael@walkingriver.com> (https://walkingriver.com)"],"homepage":"https://github.com/hildjj/node-websequencediagrams","repository":{"type":"git","url":"git://github.com/hildjj/node-websequencediagrams.git"},"directories":{"bin":"bin","lib":"lib"},"files":["bin","lib"],"main":"lib/wsd","keywords":["uml","sequence diagram","sequence","diagram","websequencediagrams","websequencediagrams.com"],"license":"Apache-2.0","dependencies":{"yargs":"^18.0.0"},"engines":{"node":">=20"}}');
 
 /***/ })
 
