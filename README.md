@@ -92,7 +92,7 @@ See the [toolkit documentation](https://github.com/actions/toolkit/blob/master/R
 
 Actions are run from GitHub repos so we will checkin the packed dist folder.
 
-Then run [ncc](https://github.com/zeit/ncc) and push the results:
+Then run [ncc](https://github.com/vercel/ncc) and push the results:
 
 ```bash
 git checkout releases/v1

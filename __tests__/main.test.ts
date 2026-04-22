@@ -1,6 +1,6 @@
 import {render} from '../src/diagrams'
-import * as path from 'path'
-import {promises as fs} from 'fs'
+import * as path from 'node:path'
+import {promises as fs} from 'node:fs'
 
 test('renders a diagram', async () => {
   await render(__dirname, 'modern-blue')
